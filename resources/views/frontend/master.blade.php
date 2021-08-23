@@ -112,7 +112,7 @@
 			@foreach($settings->social as $key =>$social)
 			<a href="{{$social}}" class="social-icon"><i class="fa fa-{{$icons[$key]}}"></i></a>
 			@endforeach
-			<a href="#top" class="goto"><span class="glyphicon glyphicon-chevron-up"></span></a>
+			<a href="#top" class="goto" style="margin-left:-20px "><span class="glyphicon glyphicon-chevron-up"></span></a>
 
 			</div>
     </div>
@@ -163,7 +163,7 @@ Copyright &copy; {{date('Y')}} | LaraNews Powered by: <a href="#">Sameh Abo Elma
    };
 
 </script>	
-<style>
+{{-- <style>
 	.search{
 		position: relative;
 	}
@@ -259,6 +259,6 @@ Copyright &copy; {{date('Y')}} | LaraNews Powered by: <a href="#">Sameh Abo Elma
 	   .sidebar-adv{
 		   margin:30px 0 ;
 	   }
-</style>
+</style> --}}
 </body>
 </html>

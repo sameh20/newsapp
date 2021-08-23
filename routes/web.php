@@ -10,10 +10,6 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-// auth
-Auth::routes();
-Route::get('/home', 'HomeController@index')->name('home');
-Route::get('logout', 'HomeController@logout')->name('logout');
 
 // main
 
@@ -60,6 +56,11 @@ Route::get('all-adv','adminController@allAdv');
 Route::get('editadv/{id}','adminController@editAdv');
 Route::post('addadv','crudController@insertData');
 Route::post('updateadv/{id}','crudController@updatetData');
+
+// auth
+Auth::routes();
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('logout', 'HomeController@logout')->name('logout');
 
 //Route::post('/addcategory',[crudController::class ,'addcategory']);
 

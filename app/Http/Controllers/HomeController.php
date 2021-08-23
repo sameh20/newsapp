@@ -24,10 +24,10 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('laranews-admin');
+        return view('news-admin');
     }
     public function logout(){
      Auth::logout();
-     return redirect('laranews-admin');
+     return redirect('news-admin');
     }
 }

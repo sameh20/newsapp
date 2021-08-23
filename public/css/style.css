@@ -121,7 +121,101 @@ h4{
 		}
 		
 
-
+		.search{
+			position: relative;
+		}
+		.search-btn{
+			color: #fff;
+			top:-25px;
+			left: 160px;
+			font-size: 18px;
+			
+		}
+		.social-icon{
+		background-color: #2ca0c9;
+		padding: 5px 10px;
+		color: #fff;
+		font-size: 20px;
+	   }
+	   .top-social{
+		padding-top: 8px;
+	  }
+		.realtive{
+		position: relative;
+	  }
+		.realtive .caption{
+		position:absolute;
+		bottom: 0px;
+		width: 100%;
+		padding: 10px;
+		left: 0;
+		background: rgba(0, 0, 0,0.7);
+		text-transform: capitalize
+		}
+		.image-gallery img{
+		width:100%;
+		 }	
+		.flex{
+				display: flex;
+				flex-wrap: nowrap;
+				margin: 0 -5px;
+			}
+			.flex div{
+				width: 30%;
+				padding: 0 5px;
+			}
+			.goto {
+			color:rgb(44, 160, 201);
+			font-size: 35px;
+			position: fixed;
+			bottom: 5px;
+			right: 20px;
+			z-index: 10;
+			}	
+			.also-like h3{
+				color: #333
+			}	
+			a{
+				text-decoration: none !important;
+			}
+		   .search input{
+			 border:1px solid #249bc6;
+			 background:#242424;
+			 color:#f1f1f1;
+			 margin-top:3px;
+		}
+		 #search-output{
+			 position: absolute;
+			 width: 100%;
+			 height: auto;
+			 padding: 10px;
+			 box-sizing: border-box;
+			 background: #fff;
+			 top:100%;
+			 left:0;
+			 display:none;
+			 z-index: 2;
+		 }
+		 #search-output ul{
+			 list-style: none;
+			 border: 3px solid #249bc6
+		 }
+		 #search-output ul li a{
+			 padding: 0 0 5px;
+			 display: block;
+			 color: #333;
+		 }
+		 
+		   .view-count h3,.share-this h3{
+			   color: #333;
+		   }
+		   .twitt-btn{
+			   position: relative;
+			   top: 5px;
+		   }
+		   .sidebar-adv{
+			   margin:30px 0 ;
+		   }
 	
 @media(max-width:420px){
 	
