@@ -108,7 +108,7 @@
 		@if($settings->image)
 		<a href="{{url('/')}}">	<img src="{{url('public/settings')}}/{{$settings->image}}" width="100%" height="85" alt="logo"/></a>
 		@endif
-        <p>Follow us at:</p>
+        <h4>Follow us at:</h4>
 			@foreach($settings->social as $key =>$social)
 			<a href="{{$social}}" class="social-icon"><i class="fa fa-{{$icons[$key]}}"></i></a>
 			@endforeach

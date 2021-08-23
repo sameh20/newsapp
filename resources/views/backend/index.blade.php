@@ -40,10 +40,10 @@
 
 			<div class="content">
 				<div class="col-sm-3">			
-					<img src="{{url('public/images/logo-big.png')}}" width="100%">
+					<img src="{{url('public/images/logo.png')}}" width="100%">
 				</div>
 				<div class="col-sm-9">
-					<p><b><a href="http://www.webtrickshome.com" target="_blank">Webtrickshome.com</a></b> The ultimate home for prospective web developers.</p>
+					<p><b><a href="http://www.newssite.com" target="_blank">newssite.com</a></b> The ultimate home for prospective web developers.</p>
 					<div class="row">
 						<ul class="nav navbar-nav">
 							<li><a href="#">photoshop</a></li>
@@ -58,8 +58,8 @@
 						</ul>
 					</div>	
 					<p>
-						<a href="https://www.facebook.com/webtrickshome/" target="_blank" class="btn btn-primary"><i class="fa fa-facebook"></i></a>
-						<a href="https://www.youtube.com/channel/UCcfzunR364Vv1NUWTKk78QA" target="_blank" class="btn btn-danger"><i class="fa fa-youtube"></i></a>
+						<a href="https://www.facebook.com/samehaboelmagd/" target="_blank" class="btn btn-primary"><i class="fa fa-facebook"></i></a>
+						<a href="https://www.youtube.com/channel/samehaboelmagd" target="_blank" class="btn btn-danger"><i class="fa fa-youtube"></i></a>
 					 </p>
 				</div>
 			</div>
